@@ -2800,10 +2800,6 @@ allocated:
 
 setvalue:
 
-    sd->user_flags = 0;
-
-    sd->expires = 0;
-
     dd("setting value type to %d", LUA_TNUMBER);
 
     sd->value_type = (uint8_t) LUA_TNUMBER;
